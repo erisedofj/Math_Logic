@@ -1,0 +1,504 @@
+body {
+    font-family: 'Noto Sans Thai', sans-serif;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1140px;
+    margin: 0 auto;
+}  
+
+nav {
+    padding: 1rem;
+    background-color: #333;
+}
+
+.nav-con {
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo a {
+    font-size: 2rem;
+    color: #ffff00;
+    text-decoration: none;
+    font-family: 'Pixelify Sans', cursive;
+}
+
+.menu {
+    display: flex;
+    list-style: none;
+    align-items: center;
+
+}
+
+.menu li {
+    margin: 0 1rem;
+}
+.menu li a {
+    color: #fff;
+    text-decoration: none;
+    border-bottom: 2px solid transparent;
+    padding-bottom: 20px;
+    transition: all 0.3s ease;
+}
+.menu li a:hover {
+    border-bottom: 2px solid #00c69e;
+    padding-bottom: 0px;
+}
+.header {
+    width: 100%;
+    background: url(https://uppic.cloud/ib/sKMwJO9iaD.jpeg);
+    height: 600px;
+    background-size: cover;
+    background-position: center center;
+}
+
+.blog-con1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 2rem;
+}
+
+.blog-item a {
+    display: inline-block;
+    color: #fff;
+    background-color: #fe66b6;
+    padding: 0.5rem 1rem;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.blog-item img {
+    width: 100%;
+}
+
+.blog-title {
+    display: inline-block;
+    margin: 2rem 0;
+    background-color: #ffff00;
+    padding: 0.5rem 1rem;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.prapoj {
+    width: 100%;
+    height: 650px;
+}
+
+.prapoj_area {
+    color: #333;
+}
+
+.prapoj_area img {
+    width: 600px;
+    margin-top: 50px;
+    float: left;
+}
+
+.prapoj_text {
+    text-align: center;
+    width: 400px;
+    float: left;
+    margin-left: 70px;
+    margin-top: 250px;
+}
+.prapoj_area h1 {
+    margin: 0;
+}
+
+.conj {
+    width: 100%;
+    height: 650px;
+}
+
+.conj_area {
+    color: #333;
+}
+
+.conj_area img {
+    width: 600px;
+    margin-top: 50px;
+    float: right;
+}
+
+.conj_text {
+    text-align: center;
+    width: 400px;
+    float: right;
+    margin-left: 70px;
+    margin-top: 250px;
+}
+.conj_area h1 {
+    margin: 0;
+}
+
+.sommoon {
+    width: 100%;
+    height: 650px;
+}
+
+.sommoon_area {
+    color: #333;
+}
+
+.sommoon_area img {
+    width: 600px;
+    margin-top: 50px;
+    float: left;
+}
+
+.sommoon_text {
+    text-align: center;
+    width: 400px;
+    float: left;
+    margin-left: 70px;
+    margin-top: 250px;
+}
+.sommoon_area h1 {
+    margin: 0;
+}
+.specialcard{
+    width: 100%;
+    background: url(https://cdn.pic.in.th/file/picinth/F3B38ACC-268D-4989-8642-34983C2414C5.jpeg);
+    height: 650px;
+    background-size: cover;
+    background-position: center center;
+}
+
+.blog-con3 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    column-gap: 2rem;
+}
+
+.back {
+    width: 100%;
+    height: 700px;
+}
+
+.back_area {
+    color: #333;
+}
+
+.back_area img {
+    width: 600px;
+    margin-top: 50px;
+    float: right;
+}
+
+.back_text {
+    text-align: center;
+    width: 400px;
+    float: right;
+    margin-left: 70px;
+    margin-top: 250px;
+}
+.back_area h1 {
+    margin: 0;
+}
+
+.rules {
+    width: 100%;
+    height: 500px;
+}
+
+.rules_area {
+    color: #333;
+}
+
+.rules_vdo {
+    width: 600px;
+    margin-top: 50px;
+    float: left;
+}
+
+.rules_vdo iframe {
+    width: 600px;
+    height: 338px;
+}
+
+.rules_text {
+    text-align: center;
+    width: 400px;
+    float: right;
+    margin-left: 70px;
+    margin-top: 100px;
+}
+
+.footer-top {
+    padding: 2rem;
+    background-color: #000;
+    color: #fff;
+}
+
+.footer-top-con {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 2rem;
+}
+
+@media only screen and (max-width: 768px){
+    .container {
+        max-width: 600px;
+    }  
+    .header {
+        height: 350px;
+    }
+    nav {
+        padding: 0.8rem;
+    }
+    
+    .logo a {
+        font-size: 1rem;
+    }
+    .menu li {
+        font-size: 0.8rem;
+        margin: 0 0.5rem;
+    }
+    .blog-con1 {
+        font-size: 14px;
+        column-gap: 0.8rem;
+    }
+    .blog-item a {
+        padding: 0.5rem 1rem;
+    }
+    .blog-title {
+        font-size: 15px;
+        margin: 1rem 0;
+        padding: 0.5rem 1rem;
+    }
+    .prapoj {
+        height: 350px;
+    }
+    .prapoj_area img {
+        width: 350px;
+        margin-top: 10px;
+    }
+    
+    .prapoj_text {
+        font-size: 14px;
+        width: 200px;
+        margin-left: 10px;
+        margin-top: 70px;
+    }
+    .conj {
+        height: 350px;
+    }
+    .conj_area img {
+        width: 350px;
+        margin-top: 10px;
+    }
+    
+    .conj_text {
+        font-size: 14px;
+        width: 230px;
+        margin-left: 10px;
+        margin-top: 70px;
+    }
+    .sommoon {
+        height: 400px;
+    }
+    .sommoon_area img {
+        width: 350px;
+        margin-top: 10px;
+    }
+    
+    .sommoon_text {
+        font-size: 14px;
+        width: 230px;
+        margin-left: 10px;
+        margin-top: 90px;
+    }
+    .specialcard{
+        height: 350px;
+    }
+    .blog-con3 {
+        grid-template-columns: 1fr 1fr;
+        font-size: 14px;
+        column-gap: rem;
+    }
+    .back {
+        height: 350px;
+    }
+    .back_area img {
+        width: 350px;
+        margin-top: 10px;
+    }
+    
+    .back_text {
+        font-size: 14px;
+        width: 230px;
+        margin-left: 10px;
+        margin-top: 140px;
+    }
+
+    .rules {
+        height: 350px;
+    }
+    .rules_area img  {
+        width: 350px;
+        margin-top: 10px;
+    }
+
+    .rules_vdo {
+        width: 300px;
+        margin-top: 10px;
+    }
+    
+    .rules_vdo iframe {
+        width: 320px;
+        height: 180px;
+    }
+
+    .rules_text {
+        font-size: 14px;
+        width: 250px;
+        margin-left: 40px;
+        margin-top: 30px;
+    }
+
+    .footer-top {
+        padding: 1rem;
+    }
+    .footer-top-con {
+        font-size: 12px;
+        grid-template-columns: 1fr 1fr;
+        column-gap: 2rem;
+    }
+}
+
+@media only screen and (max-width: 480px){
+    .container {
+        max-width: 400px;
+    }  
+    .header {
+        height: 200px;
+    }
+    nav {
+        padding: 0.5rem;
+    }
+    
+    .logo a {
+        font-size: 0.8rem;
+    }
+    .menu li {
+        font-size: 0.6rem;
+        margin: 0 0.3rem;
+    }
+    .blog-con1 {
+        font-size: 10px;
+        column-gap: 0.8rem;
+    }
+    .blog-item a {
+        padding: 0.25rem 0.5rem;
+    }
+    .blog-title {
+        font-size: 11px;
+        margin: 0.5rem 0;
+        padding: 0.1rem 0.5rem;
+    }
+    .prapoj {
+        height: 200px;
+    }
+    .prapoj_area img {
+        width: 200px;
+        margin-top: 10px;
+    }
+    
+    .prapoj_text {
+        font-size: 10px;
+        width: 140px;
+        margin-left: 10px;
+        margin-top: 30px;
+    }
+    .conj {
+        height: 200px;
+    }
+    .conj_area img {
+        width: 200px;
+        margin-top: 10px;
+    }
+    
+    .conj_text {
+        font-size: 10px;
+        width: 150px;
+        margin-left: 10px;
+        margin-top: 30px;
+    }
+    .sommoon {
+        height: 200px;
+    }
+    .sommoon_area img {
+        width: 190px;
+        margin-top: 10px;
+    }
+    
+    .sommoon_text {
+        font-size: 10px;
+        width: 150px;
+        margin-left: 10px;
+        margin-top: 30px;
+    }
+    .specialcard{
+        height: 250px;
+    }
+    .blog-con3 {
+        grid-template-columns: 1fr 1fr;
+        font-size: 10px;
+        column-gap: 1rem;
+    }
+    .back {
+        height: 200px;
+    }
+    .back_area img {
+        width: 200px;
+        margin-top: 10px;
+    }
+    
+    .back_text {
+        font-size: 10px;
+        width: 150px;
+        margin-left: 10px;
+        margin-top: 70px;
+    }
+
+    .rules {
+        height: 200px;
+    }
+    .rules_area img  {
+        width: 200px;
+        margin-top: 10px;
+    }
+
+    .rules_vdo {
+        width: 200px;
+        margin-top: 20px;
+    }
+    
+    .rules_vdo iframe {
+        width: 255px;
+        height: 144px;
+    }
+
+    .rules_text {
+        font-size: 10px;
+        width: 150px;
+        margin-left: 10px;
+        margin-top: 30px;
+    }
+
+    .footer-top {
+        padding: 0.8rem;
+    }
+    .footer-top-con {
+        font-size: 10px;
+        grid-template-columns: 1fr 1fr;
+        column-gap: 1rem;
+    }
+}
